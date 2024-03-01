@@ -1,0 +1,13 @@
+{
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "AList",
+  "icons": [
+    {
+      "src": "https://jsd.nn.ci/gh/HaTaXu/logo@main/shaanstar.svg",
+      "sizes": "512x512",
+      "type": "image/svg"
+    }
+  ]
+}
