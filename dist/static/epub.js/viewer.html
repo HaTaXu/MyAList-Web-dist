@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -323,7 +323,7 @@
           restore: true,
           reload: true,
           spreads: true,
-        }
+        },
       )
       var rendition = book.renderTo("viewer", {
         width: "100%",
@@ -344,7 +344,7 @@
               : rendition.next()
             e.preventDefault()
           },
-          false
+          false,
         )
 
         var prev = document.getElementById("prev")
@@ -356,7 +356,7 @@
               : rendition.prev()
             e.preventDefault()
           },
-          false
+          false,
         )
 
         var keyListener = function (e) {
